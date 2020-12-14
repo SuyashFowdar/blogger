@@ -34,8 +34,11 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
+    Tagging.destroy_by(article_id: params[:id])
+    Comment.destroy_by(article_id: params[:id])
     Article.destroy(params[:id])
     flash.notice = 'Article Destroyed!'
+    redirect_to articles_path
   end
 
   def edit
