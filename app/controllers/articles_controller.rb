@@ -13,8 +13,6 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
-    @comment = Comment.new
-    @comment.article_id = @article.id
   end
 
   def create
@@ -36,9 +34,8 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-
     Article.destroy(params[:id])
-    flash.notice = "Article Destroyed!"
+    flash.notice = 'Article Destroyed!'
   end
 
   def edit
