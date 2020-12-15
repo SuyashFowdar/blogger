@@ -8,7 +8,7 @@ class TagsController < ApplicationController
   end
 
   def destroy
-    Tagging.destroy_by(tag_id: params[:id])
+    # Tagging.destroy_by(tag_id: params[:id])
     Tag.destroy(params[:id])
     flash.notice = 'Tag Destroyed!'
     redirect_to tags_path
