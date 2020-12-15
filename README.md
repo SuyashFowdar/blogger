@@ -27,7 +27,7 @@ We used basic concepts of Ruby on Rails including:
 
 ## Blog app
 
-![screenshot](.app/assets/images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 This is a simple blog where you can create articles, and add comments, tags and pictures to the articles.
 
