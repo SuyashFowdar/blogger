@@ -7,13 +7,13 @@
 In this project we created a simple blog system following the instructions from [JumpstartLab](http://tutorials.jumpstartlab.com/projects/blogger.html).
 We used basic concepts of Ruby on Rails including:
 
-Models, Views, and Controllers (MVC)
-Data Structures & Relationships
-Routing
-Migrations
-Views with forms, partials, and helpers
-RESTful design
-Adding gems for extra features
+- Models, Views, and Controllers (MVC)
+- Data Structures & Relationships
+- Routing
+- Migrations
+- Views with forms, partials, and helpers
+- RESTful design
+- Adding gems for extra features
 
 ## To install and run
 
@@ -27,7 +27,7 @@ Adding gems for extra features
 
 ## Blog app
 
-![screenshot](./assets/screenshot.png)
+![screenshot](.app/assets/images/screenshot.png)
 
 This is a simple blog where you can create articles, and add comments, tags and pictures to the articles.
 
@@ -70,6 +70,10 @@ Contributions, issues, and feature requests are welcome! Start by:
 
 - GitHub: [@Zappat0n](https://github.com/Zappat0n)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/angel-barros/)
+
+👤 **Suyash Fowdar**
+- Github: [@Krishnzzz](https://github.com/krishnzzz)
+- LinkedIn: [Suyash Fowdar](https://www.linkedin.com/in/suyash-fowdar-22b89514a/)
 
 ## Show your support
 
