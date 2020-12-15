@@ -1,5 +1,10 @@
 // $primary_color: #AAA;
 
+header {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
 body {
   // background-color: $primary_color;
   font: {
@@ -60,7 +65,7 @@ a {
   display: block;
   float: left;
   clear: left;
-  margin-top: 10px;
+  // margin-top: 10px;
   line-height: 1.2em;
   padding: 0.3em 1em;
   border-width: 1px;
