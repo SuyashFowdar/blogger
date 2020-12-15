@@ -24,6 +24,7 @@ We used basic concepts of Ruby on Rails including:
 - Install the locale database. Run `rake db:migrate`
 - If you have problems with the gem versions try installing [RVM](https://rvm.io/)
 - Launch a Rails Server using `rails server`
+- Open your browser and go to `127.0.0.1:3000` or `localhost:3000`
 
 ## Blog app
 
