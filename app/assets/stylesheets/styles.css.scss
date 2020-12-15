@@ -1,0 +1,158 @@
+$primary-color:  rgba(0, 0, 0, 0.1);
+
+a {
+  text-decoration: none;
+  color: #00f;
+
+  img {
+    border: none;
+  }
+}
+
+header {
+  nav {
+    display: flex;
+    margin: -20px 0 20px -20px;
+
+    a {
+      padding: 10px;
+      display: block;
+      height: 100%;
+      border-radius: 6px;
+    }
+  }
+}
+
+h1 {
+  display: flex;
+  padding-right: 20px;
+  border-radius: 0;
+
+  .menus {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+
+    a {
+      color: #fff;
+      display: block;
+      margin: 0 10px;
+      padding: 10px;
+    }
+  }
+}
+
+header nav a:hover {
+  background-color: $primary-color;
+}
+
+body {
+  padding-bottom: 50px;
+
+  font: {
+    font-family: verdana, helvetica, arial, serif;
+    font-size: 14px;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+#content {
+  clear: both;
+  padding-top: 20px;
+}
+
+#articles {
+  padding: 0;
+
+  li {
+    padding: 0;
+
+    a:first-child {
+      padding: 10px 20px;
+      width: 100%;
+      height: 100%;
+    }
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}
+
+.new {
+  border-radius: 6px;
+  display: block;
+  float: left;
+  clear: left;
+  margin-top: 10px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #134e89;
+  background-image: linear-gradient(#81a2c3, #4b749e 10%, #2d4660 50%, #283f55 50%, #395878);
+  border-color: #192836;
+  text-shadow: #030e19 0 1px 1px;
+  box-shadow: rgba(255, 255, 255, 0.306) 0 0 0.1em 1px inset;
+  background-clip: padding-box;
+  font-size: 1.2em;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.article {
+  padding: 20px;
+  color: black;
+  font-size: 18px;
+}
+
+.posted,
+.tags {
+  font-size: 13px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.comment-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.comment {
+  padding: 10px;
+}
+
+details.comments {
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 10px;
+}
