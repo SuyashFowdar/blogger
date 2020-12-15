@@ -20,6 +20,8 @@ header {
 }
 
 body {
+  padding-bottom: 50px;
+
   font: {
     font-family: verdana, helvetica, arial, serif;
     font-size: 14px;
@@ -99,6 +101,7 @@ a {
 h1 {
   display: flex;
   padding-right: 20px;
+  border-radius: 0;
 
   .menus {
     font-size: 16px;
