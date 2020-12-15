@@ -1,12 +1,25 @@
-// $primary_color: #AAA;
+$primary-color:  rgba(0, 0, 0, 0.1);
 
 header {
-  display: flex;
-  padding-bottom: 2rem;
+  
+  nav {
+    display: flex;
+    margin: -20px 0 20px -20px;
+
+    a {
+      padding: 10px;
+      display: block;
+      height: 100%;
+      border-radius: 6px;
+
+      &:hover {
+        background-color: $primary-color;
+      }
+    }
+  }
 }
 
 body {
-  // background-color: $primary_color;
   font: {
     font-family: verdana, helvetica, arial, serif;
     font-size: 14px;
@@ -55,7 +68,7 @@ a {
     }
 
     &:hover {
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: $primary-color;
     }
   }
 }
@@ -65,7 +78,7 @@ a {
   display: block;
   float: left;
   clear: left;
-  // margin-top: 10px;
+  margin-top: 10px;
   line-height: 1.2em;
   padding: 0.3em 1em;
   border-width: 1px;
@@ -81,4 +94,63 @@ a {
   &:hover {
     color: #fff;
   }
+}
+
+h1 {
+  display: flex;
+  padding-right: 20px;
+
+  .menus {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    
+    a {
+      color: #fff;
+      display: block;
+      margin: 0 10px;
+      padding: 10px;
+    }
+  }
+}
+
+
+summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.article {
+  padding: 20px;
+  color: black;
+  font-size: 18px;
+}
+
+.posted, .tags {
+  font-size: 13px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.comment-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.comment {
+  padding: 10px;
+}
+
+details.comments {
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 10px;
 }
